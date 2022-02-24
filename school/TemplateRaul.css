@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+			body
+			{
+				background-repeat: no-repeat;
+				background-size: cover; 
+			}
+			.p1
+			{
+				text-align: justify;
+				text-decoration: none;
+				font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+				color: #000000;
+				font-size: 160%;
+				padding: 0px 15px;
+			}
+			li 
+			{
+				text-align: justify;
+				text-decoration: none;
+				font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+				color: #000000;
+				font-size: 160%;
+				padding: 0px 15px;
+			}
+			h1
+			{
+				font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+				color: #16A037; 
+				font-size: 250%;
+				text-align: center; 
+			}
+			div.meniu
+			{
+    			height: 100%; 
+    			width: 275px; 
+    			position: fixed; 
+    			z-index: 1; 
+    			top: 0; 
+    			left: 0; 
+    			background-color: #0A7613;
+    			overflow-x: hidden;
+    			padding-top: 30px;
+			}
+			div.meniu a
+			{
+    			padding: 25px 16px 25px 16px;
+    			text-decoration: none; 
+    			font-size: 175%; 
+    			color: white;
+    			display: block; 
+			}
+			div.meniu a:hover
+			{
+    			color: #FFFFFF;
+				background-color: #28BA39; 
+			}
+			div.page
+			{
+    			margin-left: 270px;
+    			padding: 0px 10px;
+				margin-right: 500px;
+			}
+			div.media
+			{
+				right: 0;
+				top: 130px;
+				height: 100%;
+				width: 500px;
+				position: fixed;
+				overflow-x: hidden;
+				z-index: 1;
+				display: block;
+				text-align: center;
+			}

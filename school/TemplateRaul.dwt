@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Scoala nr. 10 Bacau</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Templates/TemplateRaul.css">
+</head>
+
+<body>
+	<div class="meniu">
+  			<a href="index.html">Acas&#259;</a>
+  			<a href="Noutati.html">Activit&#259;&#355;i</a>
+			<a href="Documente.html">Documente</a>
+  			<a href="Foto.html">Galerie foto</a>   
+			<a href="Contact.html">Contact</a>
+	</div>
+
+<div class="page">
+  <h1><i> SCOALA GIMNAZIALA NR. 10 BACAU </i></h1>
+		<!-- TemplateBeginEditable name="Edit1" -->Edit1<!-- TemplateEndEditable -->
+  </div>
+		
+	<div class="media">
+		<img src="poze/1.jpg" alt="scoala" style=" width: 430px;">
+		<br> <br> <br>
+		<img src="poze/2.jpg" alt="scoala" style=" width: 430px;">
+	</div>
+</body>
+</html>
