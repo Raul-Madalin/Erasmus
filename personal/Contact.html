@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Contact</title>
+	</head>
+	
+	<body>
+		<div class="meniu">
+  			<a href="index.html">Acas&#259;</a>
+  			<a href="Proiecte.html">Proiecte</a>
+			<a href="Hobby.html">Hobby</a>
+  			<a href="Contact.html">Contact</a>
+  			<a href="Sitemap.html">SITEMAP</a>
+			<br>
+			<img alt="logo" src="Poze/logo.png" style="width: 275px; padding-top: 100px; position: fixed">
+		</div>
+
+		<div class="page">
+			<h1><i>&emsp;&emsp; "All the gods, all the heavens, all the hells are within you." </i></h1>
+			<p class="p1"> <br> &emsp; &emsp; &emsp; M&#259; pute&#355;i g&#259;si la:</p> <br> <br> <img src="Poze/telefon.png" alt="telefon" width="75" style="float: left; margin-left: 115px;"> <p class="p2">Tel.: 0756.250.338 </p> <br> <br> <br> <br> <br> <img src="Poze/email.png" alt="email" width="75" style="float: left; margin-left: 115px;"> <p class="p2">E-mail: raul05madalin@yahoo.com</p> <br> <br> <br> <br> <br>
+			<a href="https://www.facebook.com/raul.boboc" target="_blank"> <img src="Poze/facebook.png" alt="fb" width="75" height="75" style="float: left; margin-left: 115px;"> </a> <p class="p1"> &emsp; Sau pe pagina mea de Facebook. </p> 
+			<br>
+			<div id="map" style="width: 600px; height: 400px; background: white; position: absolute; left: 250px; right: 0; margin: inherit;">
+			</div>
+			<script>
+					function myMap() {
+  						var mapCanvas = document.getElementById("map");
+  						var mapOptions = {
+    						center: new google.maps.LatLng(46.55109909999999, 26.91982029999997), zoom: 15
+  						};
+  						var map = new google.maps.Map(mapCanvas, mapOptions);
+  						var marker = new google.maps.Marker({
+	 						position: {lat: 46.55109909999999, lng: 26.91982029999997},
+	 						map: map
+  						});
+					}
+			</script>
+
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC54cMXmNRRetixVf51KUug1lAi6cNLRAE&callback=myMap">
+			</script>
+
+		</div>
+		
+	</body>
+</html>

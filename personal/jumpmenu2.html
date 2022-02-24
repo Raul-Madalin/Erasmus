@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jump Menu</title>
+<script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+<style>
+body, html {
+
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+select{
+	padding:10px 5px 10px 5px;
+	font-size:20px;
+	margin:10px 0;
+	color:white;
+	background-color:#004990;
+}
+option{
+	padding:5px 5px;
+	color:black;
+	background-color:#FF8000;	
+}
+p{
+	font-size:20px;
+}
+</style>
+</head>
+
+<body>
+<div style="width:80%; margin:20px auto;">
+<p>Selectati categoria de produse:</p>
+<select onChange="MM_jumpMenu('parent',this,0)">
+  <option value="https://www.dedeman.ro/index.html#gradina" selected>Gradina </option>
+  <option value="https://www.dedeman.ro/index_amenajari.html#amenajari">Amenajari</option>
+  <option value="https://www.dedeman.ro/index_mobila.html#mobila">Mobila</option>
+  <option value="https://www.dedeman.ro/index_gresie-si-faianta.html#gresie-si-faianta">Gresie si faianta</option>
+  <option value="https://www.dedeman.ro/index_constructii.html#constructii">Constructii</option>
+  <option value="https://www.dedeman.ro/index_scule-si-unelte.html#scule-si-unelte">Scule si unelte</option>
+  <option value="https://www.dedeman.ro/index_electrocasnice.html#electrocasnice">Electrocasnice</option>
+</select>
+</div>
+</body>
+</html>

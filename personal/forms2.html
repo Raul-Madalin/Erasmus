@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formular</title>
+<style>
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+}
+input.button {
+    background-color: #3c4349;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+input.button:hover {
+    background-color:#171717;
+}
+form{
+	margin-bottom:60px;	
+}
+label{
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight:700;
+	font-size:1.25em;
+}
+div.contactWrap{
+	width:80%;
+	margin:auto;
+}
+</style>
+</head>
+
+<body>
+	<div class="contactWrap">
+            <div class="messWrap">
+            	<h2>Trimite-mi un mesaj:</h2>
+                <form action="" method="POST">
+    
+                    <label for="nume">Prenume</label>
+                    <input type="text" id="prenume" name="prenume" placeholder="Prenumele tău...">
+                    
+                     <label for="numeFam">Nume de familie</label>
+                    <input type="text" id="numeFam" name="numeFam" placeholder="Numele tău de familie...">
+
+                    <label for="email">Email</label>
+                  	<input type="text" id="email" name="email" placeholder="Email-ul tău...">
+                    
+                    <label for="mesaj">Mesaj</label>
+                    <textarea id="mesaj" name="mesaj" placeholder="Scrie ceva..." style="height:200px"></textarea>
+                
+                    <input class="button" type="submit"></input>
+                
+                  </form>
+        	</div>
+	</div>
+</body>
+</html>
