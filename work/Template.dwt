@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	
+	<head>
+		
+		<meta charset="utf-8">
+		
+		<link href="../Style.css" rel="stylesheet" type="text/css">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- TemplateBeginEditable name="doctitle" -->
+		
+			<title>ADD TITLE</title>
+		
+		<!-- TemplateEndEditable -->
+		
+		<!-- TemplateBeginEditable name="head" -->HEAD
+		
+		<!-- TemplateEndEditable -->
+		
+	</head>
+
+	<body>
+		
+		<div class="quote">
+			
+			<p> <img src="../GALLERY/LOGOS/Nuevo2.png" alt="logo" style="margin-left: 10vw; width: 10%"> <i><b>&emsp;TotArt - Scenic Arts Academy</b></i></p>
+			
+		</div>
+		
+		<div class="meniu">
+			
+			<a href="../index.html">HOME</a>
+			
+			<a href="../activities.html">ACTIVITIES</a>
+			
+			<a href="../contact.html">CONTACT</a>
+			
+			
+		</div>
+		
+		<!-- TemplateBeginEditable name="TEXT" -->
+		
+			TEXT
+		
+		<!-- TemplateEndEditable -->
+		
+		<footer>
+		
+			<a href="https://www.facebook.com/TotartValencia/"> <img src="../GALLERY/facebook.jpg" alt="facebook" width="5%" style="margin-left: 28%; margin-bottom: 0"> </a>
+			
+			<a href="https://twitter.com/totartvalencia"> <img src="../GALLERY/twitter.png" alt="twitter" width="5%" style="margin-left: 8%; margin-bottom: 0"> </a>
+			
+			<a href="https://www.youtube.com/user/teatroTotart?feature=CBAQwRs"> <img src="../GALLERY/youtube.jpg" alt="youtube" width="5%" style="margin-left: 8%; margin-bottom: 0"></a>
+			
+			<a href="https://www.instagram.com/totartvalencia/"> <img src="../GALLERY/insta.jpg" alt="insta" width="5%" style=" margin-left: 8%; margin-bottom: 0"> </a>
+		
+		</footer>
+		
+	</body>
+	
+</html>

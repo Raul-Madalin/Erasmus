@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+p
+
+{
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+ul
+
+{
+	margin-left: 8%;
+}
+
+table
+
+{
+	width: 50%;
+	margin-left: 25%;
+}
+
+th
+
+{
+	text-decoration: bold;
+	font-size: 90%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	padding: 1%;
+	width: 20%;
+}
+
+td
+
+{
+	text-decoration: none;
+	font-size: 90%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	padding: 1%;
+}
+
+footer
+
+{
+	background-color: rgba(255,30,34,0.79);
+	height: 10%;
+}
+
+.meniu
+
+{
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+}
+
+.meniu a
+
+{
+	height: 100%;
+	width: 33.33%;
+	color: rgba(255,255,255,1.00);
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	text-align: center;
+	float: left;
+	display: block;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1.7vw;
+	background-color: rgba(255,30,34,0.79);
+	text-decoration: none;
+}
+
+.meniu a:hover
+
+{
+	background-color: rgba(196,10,13,0.10);
+	color: rgba(0,0,0,1.00);
+}
+
+.quote
+
+{
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	margin-top: 0%;
+	padding: 0.2%;
+	height: auto;
+	font-size: 2.5vw;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: rgba(221,0,3,0.83);
+}
+
+.text
+
+{
+	margin-left: 5%;
+	height: auto;
+	margin-right: 5%;
+	margin-top: 5.2%;
+	color: rgba(0,0,0,1.00);
+	width: auto;
+	text-align: justify;
+	font-size: 1.2vw;
+	background-color: rgba(255,255,255,1.00);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-decoration: none;
+}
+
+.logo
+
+{
+	float: left;
+	display: block;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+.responsive
+
+{
+	width: 100%;
+	max-width: 130px;
+	height: auto;
+}
+
+.poll
+
+{
+	background-color: rgba(104,104,104,0.1);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+	text-align: center;
+	font-size: 1.5vw;
+	width: 100%;
+	margin-left: 0;
+	height: 15%;
+}
+
+.input
+
+{
+	margin-left: 41vw;
+}
+
+.label
+
+{
+	background-color: rgba(255,255,255,0.2);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+	text-align: left;
+	font-size: 1.2vw;
+}
+
+.vote
+{
+	background-color: rgba(255,255,255,0.8);
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+	text-align: center;
+	font-size: 1.2vw;
+}
